@@ -1,0 +1,104 @@
+/* Flex container for list items */
+.flex-list-items{
+  display: flex;
+}
+
+/* Styling for item images */
+.item-image{
+  height: 50px;
+}
+
+/* Styling for correct icon image */
+.image-correct{
+  height: 20px;
+  margin-top: 12px;
+  margin-left: 30px;
+  background-color: transparent;
+}
+
+/* Styling for correct button */
+.correct-button{
+  background-color: transparent;
+  border: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Styling for wrong button and icon */
+.wrong-button{
+  background-color: transparent;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+/* Styling for item details paragraph */
+.items-list-para-card{
+  font-size: 10px;
+  margin: auto;
+}
+
+/* Styling for a specific section of items */
+.items{
+  width: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the popup container */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px; 
+  width: 100%;
+}
+
+/* Styling for paragraphs inside the popup */
+.popup p {
+  margin-bottom: 15px;
+}
+
+/* Styling for buttons inside the popup */
+.popup button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Styling for the last button inside the popup */
+.popup button:last-child {
+  margin-right: 0;
+}
+
+/* Styling for a specific background color */
+.bg-color{
+  background-color: green;
+  color: white;
+  border-radius: 2px;
+  margin-left: 50px;
+}
+
+/* Styling for a specific text color */
+.true-color{
+  color: green;
+}
+
+/* Styling for a missing item indicator */
+.missing{
+  background-color: red;
+}
+
+/* Styling for horizontal line */
+.horizantal{
+  color: #bab5b5;
+  margin-right: 15px;
+}

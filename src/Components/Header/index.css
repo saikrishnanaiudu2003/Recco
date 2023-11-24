@@ -1,0 +1,196 @@
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #355e3b;
+    color: white;
+}
+.items-flex{
+    display: flex;
+}
+.main-head{
+    margin-left: 25px;
+    font-family: Garamond, serif;
+    margin-top: 27px;
+}
+.last-flex-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.list-items-container{
+    list-style-type: none;
+    display: flex;
+    margin-top: 35px;
+}
+.items{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.cart-button{
+    background-color: transparent;
+    border: none;
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
+.count-item{
+    font-size: 18px;
+    color: white;
+}
+.cart-icon{
+    font-size: 18px;
+    margin-top: 3px;
+    color: white;
+}
+.name-para{
+    margin-right: 30px;
+    margin-top: 8px;
+}
+.orderd-container{
+    background-color: white;
+    box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
+}
+.order-para{
+    color: #bab5b5;
+    margin-left: 25px;
+    margin-bottom: 3px;
+}
+.order-items-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.arrow-icon{
+    margin-left: 5px;
+    padding-top: 8px;
+}
+.text-line-para{
+    text-decoration: underline;
+}
+.button-container{
+    margin-top: 30px;
+}
+.back-button{
+    background-color: transparent;
+    margin-right: 15px;
+    width: 80px;
+    padding: 5px;
+    border: #355e3b 1px solid;
+    border-radius: 18px;
+    color: green;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.approved-button{
+    background-color: green;
+    margin-right: 15px;
+    width: 80px;
+    padding: 5px;
+    border: #355e3b 1px solid;
+    border-radius: 18px;
+    color: white;
+    cursor: pointer;
+}
+.all-order-items{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.order-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+    border: 1px solid #bab5b5;
+    margin-left: 95px;
+    margin-right: 95px;
+    border-radius: 15px;
+}
+.vl {
+    border-left: 2px solid #bab5b5;
+    height: 70px;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-right: 15px;
+  }
+.oder-card-para{
+    color: #bab5b5;
+}
+.order-card-head{
+    font-size: 15px;
+}
+.items-card{
+    margin-right: 18px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.items-card-oder{
+    margin-right: 172px;
+    margin-left: 172px;
+}
+.orderd-items-flex{
+    margin-top: 18px;
+    border: 1px solid #bab5b5;
+    margin-left: 95px;
+    margin-right: 95px;
+    border-radius: 15px;
+}
+.flex-searc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-card{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border:1px solid #bab5b5;
+    border-radius: 18px;
+    display: flex;
+}
+.input-element{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-left: 10px;
+}
+.icon-card{
+    padding-top: 2px;
+    margin-right: 10px;
+}
+.print-items{
+    display: flex;
+}
+.search-icon{
+    color: green;
+    font-size: 18px;
+}
+.orderd-items-flex-2{
+    margin-top: 18px;
+    border: 1px solid #bab5b5;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+}
+.list-items{
+    list-style-type: none;
+}
+.last-item{
+    margin-right: 160px;
+}
+.items-list-para{
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.total-item{
+    margin-right:75px;
+}
